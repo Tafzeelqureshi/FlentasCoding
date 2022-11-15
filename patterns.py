@@ -25,6 +25,6 @@ for i in range(totalCases):
   results.append(checkInclusion(str1,str2))
 for i in results:
   returns="NO"
-  if(results):
+  if(i):
     returns="YES"
   print(returns)
